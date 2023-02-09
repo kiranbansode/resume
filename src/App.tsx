@@ -5,7 +5,7 @@ function App() {
 		<div className="app-root">
 			<h1>Hii! Welcome to Kiran's Resume 😎 </h1>
 			<h2>
-				Why I'm seeing this? <span className="remove-glasses">😳🕶🤏</span>
+				Where is your resume? <span className="remove-glasses">😳🕶🤏</span>
 			</h2>
 			<p>
 				Currently this project is still under planning 📝 phase. You will see
@@ -24,7 +24,7 @@ function App() {
 				&nbsp;repository.
 			</p>
 
-			<h2>🗓️ Goals Behind building this project</h2>
+			<h2>🗓️ Goals behind building this project</h2>
 			<ul>
 				<li>
 					learn and practice TDD(Test Driven Development) concepts ⚡ which I
