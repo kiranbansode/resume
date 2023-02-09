@@ -3,6 +3,16 @@
 	place-items: center;
 }
 
+h1,
+h2,
+p {
+	text-align: center;
+}
+
+.remove-glasses {
+	display: inline-block;
+}
+
 a:link {
 	text-decoration: none;
 }
