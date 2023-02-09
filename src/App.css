@@ -1,0 +1,17 @@
+.app-root {
+	display: grid;
+	place-items: center;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+li {
+	margin-bottom: 8px;
+}
