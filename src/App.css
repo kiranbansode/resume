@@ -1,6 +1,12 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
 .app-root {
 	display: grid;
 	place-items: center;
+	padding: 20px;
 }
 
 h1,
@@ -22,6 +28,11 @@ a:hover {
 	text-decoration: underline;
 }
 
+ul {
+	padding-right: 30px;
+}
+
 li {
 	margin-bottom: 8px;
+	text-align: justify;
 }
