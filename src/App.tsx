@@ -4,7 +4,9 @@ function App() {
 	return (
 		<div className="app-root">
 			<h1>Hii! Welcome to Kiran's Resume 😎 </h1>
-			<h2>Why I'm seeing this? 😳🕶🤏</h2>
+			<h2>
+				Why I'm seeing this? <span className="remove-glasses">😳🕶🤏</span>
+			</h2>
 			<p>
 				Currently this project is still under planning 📝 phase. You will see
 				MVP of this project when I complete my previous&nbsp;
