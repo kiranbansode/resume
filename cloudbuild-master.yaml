@@ -1,9 +1,16 @@
 steps:
-  - name: "node"
-    entrypoint: "yarn"
+  # Install dependencies
+  - name: node
+    entrypoint: yarn
     args: ["install"]
+  # Test code
+  - name: node
+    entrypoint: yarn
+    args: ["test"]
+  # Build project
   - name: node
     entrypoint: yarn
     args: ["build"]
+  # Deploy to Firebase Hosting
   - name: gcr.io/kiranbansode-resume/firebase
     args: ["deploy", "--project=kiranbansode-resume", "--only=hosting"]
