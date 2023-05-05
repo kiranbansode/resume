@@ -11,3 +11,17 @@ See the problem with physical or electronic resume like PDF is that sometimes th
 Click below link to visit the project's Production channel
 
 https://kiranbansode-resume.web.app
+
+## Want to test it locally ?
+
+Follow the below instructions to test it locally
+
+1. Clone the repository using `git clone https://github.com/kiranbansode/resume.git`
+2. Navigate to project folder `cd resume`
+3. Install required packages `yarn` or `yarn install`
+4. Launch development server `yarn dev` or `yarn dev --host` to use it on any connected devices on your network
+5. To start test runner `yarn test` or `yarn test:ui` to launch `vitest UI` in the browser. You can also use `yarn test:run` to launch test runner without `watch` mode
+
+## If you like my project, Pleas! give it a star ⭐. It helps me a lot.
+
+Thank You! 😊
