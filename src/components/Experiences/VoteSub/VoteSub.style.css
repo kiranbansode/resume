@@ -1,0 +1,29 @@
+.votesub a {
+	text-decoration: none;
+	color: blue;
+}
+
+.votesub a:hover {
+	text-decoration: underline;
+}
+
+.votesub__work {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 3px;
+}
+
+.votesub__work span:last-child {
+	margin-left: auto;
+	font-weight: 700;
+}
+
+.votesub__list {
+	padding-left: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+	.votesub__list {
+		text-align: justify;
+	}
+}

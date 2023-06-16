@@ -1,0 +1,29 @@
+.resume a {
+	text-decoration: none;
+	color: blue;
+}
+
+.resume a:hover {
+	text-decoration: underline;
+}
+
+.resume__work {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 3px;
+}
+
+.resume__work span:last-child {
+	margin-left: auto;
+	font-weight: 700;
+}
+
+.resume__list {
+	padding-left: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+	.resume__list {
+		text-align: justify;
+	}
+}

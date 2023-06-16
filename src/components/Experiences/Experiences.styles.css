@@ -1,0 +1,14 @@
+.experiences {
+	margin: 0 20px;
+	padding-top: 3rem;
+}
+
+.experiences__title {
+	margin-top: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+	.experiences {
+		padding-top: unset;
+	}
+}
