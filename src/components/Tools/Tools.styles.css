@@ -1,0 +1,14 @@
+.tools {
+	margin: 0 20px;
+}
+
+.tools__list {
+	padding-left: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+	.tools {
+		position: relative;
+		top: -100px;
+	}
+}

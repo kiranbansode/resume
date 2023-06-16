@@ -1,0 +1,45 @@
+.education__title {
+	margin-left: 20px;
+}
+
+.education__course,
+.education__status {
+	font-weight: 600;
+}
+
+.education__institute {
+	font-style: italic;
+}
+
+.education__list {
+	list-style: none;
+	padding-bottom: 16px;
+	margin-bottom: 0;
+	margin: 0 11px;
+}
+
+.education__list li::before {
+	content: '\2022';
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
+@media only screen and (min-width: 768px) {
+	.education {
+		position: relative;
+		top: -70px;
+	}
+
+	.education__list {
+		margin: unset;
+	}
+
+	.education__title,
+	.education__course,
+	.education__institute,
+	.education__status,
+	.education__list li::before {
+		color: #fff;
+	}
+}

@@ -1,0 +1,35 @@
+.courses__title {
+	margin-left: 20px;
+}
+
+.courses__list a {
+	text-decoration: none;
+	color: #000;
+}
+
+.courses__list a:hover {
+	text-decoration: underline;
+}
+
+.courses__list {
+	list-style: none;
+	margin: 0 11px;
+}
+
+.courses__list li::before {
+	content: '\2022';
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+@media only screen and (min-width: 768px) {
+	.courses__title,
+	.courses__list a,
+	.courses__list li::before {
+		color: #fff;
+	}
+
+	.courses__list {
+		margin: unset;
+	}
+}

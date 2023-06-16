@@ -1,42 +1,78 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.app-root {
+	background-color: #ece9e1;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+@media only screen and (min-width: 768px) {
+	.app-root {
+		box-sizing: border-box;
+		max-width: 850px;
+		min-width: 835px;
+		max-height: 1260px;
+		padding: 20px;
+		background-color: #fff;
+		z-index: 1;
+		box-shadow: 0 4px 10px 4px rgba(0, 0, 0, 0.25);
+		outline: 1px solid black;
+		border-radius: 30px;
+		display: grid;
+		grid-template-columns: 320px 1fr;
+		grid-template-areas:
+			"intro experiences"
+			"contact experiences"
+			"courses skills"
+			"education tools";
+	}
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+	.app-root .background__wrapper {
+		display: block;
+		position: absolute;
+		border-radius: 30px;
+		width: 320px;
+		height: 1220px;
+		background: rgb(115, 134, 255);
+		background: linear-gradient(
+			180deg,
+			rgb(157, 168, 253) 0%,
+			rgba(111, 0, 255, 1) 100%
+		);
+		z-index: 5;
+	}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
+	.intro,
+	.contact,
+	.courses,
+	.experience,
+	.skills,
+	.tools,
+	.education {
+		z-index: 10;
+	}
 
-.card {
-  padding: 2em;
-}
+	.intro {
+		grid-area: intro;
+	}
 
-.read-the-docs {
-  color: #888;
+	.contact {
+		grid-area: contact;
+	}
+
+	.courses {
+		grid-area: courses;
+	}
+
+	.experiences {
+		grid-area: experiences;
+	}
+
+	.skills {
+		grid-area: skills;
+	}
+
+	.tools {
+		grid-area: tools;
+	}
+
+	.education {
+		grid-area: education;
+	}
 }
