@@ -3,6 +3,10 @@ steps:
   - name: node
     entrypoint: yarn
     args: ["install"]
+  # Test Codebase
+  - name: node
+    entrypoint: yarn
+    args: ["test:run"]
   # Build project
   - name: node
     entrypoint: yarn
