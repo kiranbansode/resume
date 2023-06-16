@@ -75,4 +75,43 @@
 	.education {
 		grid-area: education;
 	}
+=======
+body {
+	margin: 0;
+	padding: 0;
 }
+
+.app-root {
+	display: grid;
+	place-items: center;
+	padding: 20px;
+}
+
+h1,
+h2,
+p {
+	text-align: center;
+}
+
+.remove-glasses {
+	display: inline-block;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+ul {
+	padding-right: 30px;
+}
+
+li {
+	margin-bottom: 8px;
+	text-align: justify;
+}
+  
