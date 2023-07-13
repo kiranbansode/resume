@@ -40,10 +40,10 @@ describe("Checking 'Education' component", () => {
 				expect(listEl.length).toBe(1);
 			});
 
-			test("list has 3 span elements", () => {
+			test("list has 2 span elements", () => {
 				render(<Education />);
 				const spanLists = document.querySelectorAll("span");
-				expect(spanLists.length).toBe(3);
+				expect(spanLists.length).toBe(2);
 			});
 
 			describe("Degree", () => {
