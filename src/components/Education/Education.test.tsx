@@ -56,7 +56,7 @@ describe("Checking 'Education' component", () => {
 				});
 
 				test("match course name", () => {
-					expect(degreeEl.textContent).toBe("B.E. (Information Technology)");
+					expect(degreeEl.textContent).toBe("B.E. (Information Technology)*");
 				});
 			});
 
