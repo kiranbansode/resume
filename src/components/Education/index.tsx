@@ -13,9 +13,6 @@ const Education = () => {
 					<span className="education__institute">
 						Vishwakarma Institute of Information Technology
 					</span>
-					<span className="education__status">
-						<em>&nbsp;(~pursuing~)</em>
-					</span>
 				</li>
 			</ul>
 		</div>
