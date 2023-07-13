@@ -7,7 +7,7 @@ const Education = () => {
 			<ul className="education__list">
 				<li>
 					<span className="education__course">
-						B.E. (Information Technology)
+						B.E. (Information Technology)*
 					</span>
 					<br />
 					<span className="education__institute">
