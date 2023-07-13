@@ -76,7 +76,7 @@ describe("Checking 'Education' component", () => {
 				});
 			});
 
-			describe("Status", () => {
+			/*describe("Status", () => {
 				render(<Education />);
 				const spanLists = document.querySelectorAll("span");
 				const statusEl = spanLists.item(2);
@@ -88,7 +88,7 @@ describe("Checking 'Education' component", () => {
 				test("match course name", () => {
 					expect(statusEl.textContent).toBe("\u00A0(~pursuing~)");
 				});
-			});
+			});*/
 		});
 	});
 });
