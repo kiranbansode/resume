@@ -12,7 +12,7 @@ const VoteSub = () => {
 
 				<p className="votesub__work">
 					<span>Full-Stack&nbsp;</span> : <span>&nbsp;Self-Employed</span>
-					<span>Oct 21-May 23</span>
+					<span>Oct 21-Present</span>
 				</p>
 			</section>
 
