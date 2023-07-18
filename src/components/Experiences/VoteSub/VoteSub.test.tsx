@@ -45,7 +45,7 @@ describe("Checking VoteSub component", () => {
 			render(<VoteSub />);
 			const paragraphEl = document.querySelector("p") as HTMLParagraphElement;
 			expect(paragraphEl.textContent).toBe(
-				"Full-Stack\u00A0 : \u00A0Self-EmployedOct 21-May 23"
+				"Full-Stack\u00A0 : \u00A0Self-EmployedOct 21-Present"
 			);
 		});
 
